@@ -6,4 +6,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="NoTitle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- 是隐藏掉标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--
+        将APP的页面占满全屏
+        <item name="android:windowFullscreen">true</item>
+        -->
+    </style>
 </resources>
